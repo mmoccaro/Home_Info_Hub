@@ -1,4 +1,4 @@
- #!/usr/bin/perl 
+my  #!/usr/bin/perl 
  
  #  File: home_info_hub_main.pl 
  #  Type: Perl Source File  
@@ -15,7 +15,7 @@ use Gtk2;
  
 Gtk2->init; 
  
-$window = Gtk2::Window->new('toplevel'); 
+my $window = Gtk2::Window->new('toplevel'); 
  
 $window->signal_connect (destroy => sub { Gtk2->main_quit; }); 
  
